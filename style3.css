@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: darkred;
+}

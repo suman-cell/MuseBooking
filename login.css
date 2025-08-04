@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f0f0, #d9d9d9); /* Subtle gradient */
+    margin: 0;
+    overflow: hidden;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Main container with a clean card design */
+.main {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 400px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    animation: slideIn 1s ease-out;
+}
+
+.main:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+h1 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    animation: bounce 2s infinite;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    animation: fadeInText 1.5s ease-in-out;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #007bff;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+button:active {
+    background-color: #004085;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+p {
+    margin-top: 15px;
+    color: #555;
+    animation: fadeInText 1.5s ease-in-out;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

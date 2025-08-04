@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+<link rel="stylesheet" href="botstyle.css">
+</head>
+<body>
+    <!-- Chatbot Icon -->
+    <div class="chat-icon" id="chat-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+    
+    <!-- Chatbot Container -->
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <h2 id="museum-title">Museum Assistant</h2>
+            <div class="actions">
+                <select id="museum-selector" class="museum-selector">
+                    <option value="victoria">Victoria Memorial</option>
+                    <option value="national">National Museum</option>
+                    <option value="salarjung">Salar Jung Museum</option>
+                    <option value="csmvs">CSMVS</option>
+                    <option value="calico">Calico Museum</option>
+                </select>
+                <select id="language-selector" class="language-selector">
+                    <option value="en">English</option>
+                    <option value="hi">हिंदी</option>
+                    <option value="bn">বাংলা</option>
+                </select>
+                <button class="close-btn" id="close-chat">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div id="chat-messages" class="chat-messages">
+            <!-- Messages will be added here by JavaScript -->
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="smusebot.js"></script>
+</body>
+</html>

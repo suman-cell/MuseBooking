@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museum Tickets - Travel And Tourism</title>
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+  
+  <style>
+    .hero-title {
+      animation: grow 1s ease forwards;
+    }
+
+    @keyframes grow {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- Header code same as index.html -->
+  <header class="header">
+    <!-- ...existing header code... -->
+  </header>
+
+  <main>
+    <article>
+      <!-- Hero section for tickets -->
+      <!-- <section class="hero" style="background-image: url('banner1.jpg');">
+        <div class="container">
+          <h2 class="h1 hero-title">Museum Tickets</h2>
+          <p class="hero-text">Explore our collection of museum tickets at the best prices</p>
+        </div>
+      </section> -->
+
+      <!-- Ticket listings -->
+      <section class="package" style="background: var(--cultured);">
+        <div class="container">
+          <div class="ticket-heading">
+            <h2 class="h2 section-title">All Museum Tickets</h2>
+            <p class="section-text">Browse through our comprehensive list of museum tickets and find the perfect option for your visit.</p>
+          </div>
+
+          <ul class="package-list">
+            <!-- Additional ticket listings -->
+            <li>
+              <div class="package-card">
+                <figure class="card-banner">
+                  <img src="National Museum.jpg" alt='National Museum'>
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">National Museum</h3>
+                  <p class="card-text">
+                    The National Museum in New Delhi is one of the largest museums in India.
+                     Established in 1949, it houses various artifacts from prehistoric era to modern works of art. 
+                     It has over 200,000 works of art, both of Indian and foreign origin, covering over 5,000 years of cultural heritage. </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+                        <p class="text">10AM-5PM</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+                        <p class="text">NOP: 10</p>
+                      </div>
+                    </li>
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+                        <p class="text">Delhi</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="card-price">
+                  <div class="wrapper">
+                    <p class="reviews">(50 reviews)</p>
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    ₹50
+                    <span>/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary" onclick="redirectToBooking('National Museum')">Book Now</button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Add more ticket listings as needed -->
+
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Footer code same as index.html -->
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <div class="id">
+            <div class="svg2">
+              <h2 style="color: rgb(184, 191, 210) ;"><B>MuseBook</B></h2>
+            </div>
+            <div class="svg"><i class="bi bi-airplane-fill"></i></div>
+           
+          </div>
+
+
+
+          <p class="footer-text">
+          MuseBot is an interactive AI-powered chatbot designed to simplify the ticket booking experience for museum visitors.
+           It provides multilingual support, answers frequently asked questions, and guides users through the ticket booking process in a conversational format.
+           Users can select their preferred museum, language, number of tickets, and visit date, all through a smooth chat interface.
+           </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+91 9692058554</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.musebook.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>patia,Bhubaneswar</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+        <!-- Add social media icons -->
+        <div class="footer-social">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">BookWithMuseBook</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- GO TO TOP -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    document.getElementById("bookNow").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        document.getElementById("package").scrollIntoView({ behavior: "smooth" });
+    });
+    function redirectToBooking(museum) {
+        const url = `booknow.php?museum=${encodeURIComponent(museum)}`;
+        window.location.href = url; // Redirect without price
+    }
+    </script>
+    
+
+</body>
+
+</html>
